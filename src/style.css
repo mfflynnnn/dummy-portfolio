@@ -94,8 +94,25 @@ p {
   text-decoration: underline;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
   h1 {
-    font-size: 60px;
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+    margin: 0 auto;
+  }
+  h3 {
+    padding: 0 10px;
+    text-overflow: clip;
+  }
+  img {
+    display: none;
+  }
+  .email-link {
+    font-size: 18px;
   }
 }
